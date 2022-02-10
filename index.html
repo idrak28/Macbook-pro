@@ -18,64 +18,64 @@
         <h1>Customize your Blue 24-inch iMac with Apple M1 Chip</h1> 
         <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard - US English</p>
         <h3>Memory</h3>
-        <button class="btn btn-primary">8GB unifield memory</button> 
-        <button class="btn btn-primary">16GB unifield memory</button>
+        <button id="memory-8"class="btn btn-primary">8GB unifield memory</button> 
+        <button id="memory-16" class="btn btn-primary">16GB unifield memory</button>
         <br>
         <br>
         <br>
         <br>
         <h3>Storage</h3>
-        <button class="btn btn-primary">128 GB SSD Storage</button> 
-        <button class="btn btn-primary">256 GB SSD Storage</button> 
-        <button class="btn btn-primary">500 GB SSD Storage</button> 
+        <button id="ssd-128"class="btn btn-primary">128 GB SSD Storage</button> 
+        <button id="ssd-256"class="btn btn-primary">256 GB SSD Storage</button> 
+        <button id="ssd-500"class="btn btn-primary">500 GB SSD Storage</button> 
         <br>
         <br>
         <br>
         <br>
         <h3>Choose your delivery option</h3>
-        <button  class="btn btn-primary">24 Febuary Free Prime Delivery</button>
-        <button class="btn btn-primary">21 Febuary Delivery $20 Charge</button>
+        <button  id="delivery-free"class="btn btn-primary">24 Febuary Free Prime Delivery</button>
+        <button  id="delivery-20"class="btn btn-primary">21 Febuary Delivery $20 Charge</button>
        
        
        
        
        
-       <div id ="amount" class="mt-5">
+       <div id ="amount-html" class="mt-5">
         <div class="d-flex justify-content-between">
             <div><h4>Best Price</h4></div>
-            <div> <h4>$1250</h4></div>
+            <div> <h4>$<span id="best-price">1250</span></h4></div>
             
         </div>
         <hr>
-        <div class="d-flex justify-content-between">
+        <!-- <div class="d-flex justify-content-between">
             <div><h4>Extra Memory Cost</h4></div>
-            <div><h4>$0</h4></div>
+            <div><h4>$<span id="memory-cost">0</span></h4></div>
             
         </div>
-        <hr>
+        <hr> -->
         <div class="d-flex justify-content-between">
             <div><h4>Extra Storage Cost</h4></div>
-            <div><h4>$0</h4></div>
+            <div><h4>$<span id="ssd-cost">0</span></h4></div>
             
         </div>
         <hr>
         <div class="d-flex justify-content-between">
             <div><h4>Delivery Charge</h4></div>
-            <div><h4>$0</h4></div>
+            <div><h4>$<span id="delivery-charge">0</span></h4></div>
             
         </div>
         <hr>
         <div class="d-flex justify-content-between">
             <div><h4>Total Price</h4></div>
-            <div><h4>$1250</h4></div>
+            <div><h4>$<span id="total-price">1250</span></h4></div>
          
         </div>
        </div>
        <br>
        <h3>Add Promo</h3>
        <form action="">
-           <input type="text">
-           <button class="btn btn-danger">Apply</button>
+           <input id="promo-code"type="text">
+           <button id="apply"class="btn btn-danger">Apply</button>
        </form>
        
         
@@ -85,7 +85,7 @@
   
  <hr>
  <footer class="d-flex justify-content-center">
-     <h2>Total $<span>1250</span></h2>
+     <h2>Total $<span id="total">1250</span></h2>
  </footer>
 
 
